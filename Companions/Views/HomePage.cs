@@ -6,6 +6,11 @@ public class HomePage : ContentPage
 	{
 		CollectionView homeCollectionView = new CollectionView();
 
+		homeCollectionView.Header = new Grid()
+		{
+
+		};
+
 		Content = homeCollectionView;
 	}
 }
